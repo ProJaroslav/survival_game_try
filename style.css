@@ -1,0 +1,90 @@
+.main-screen {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 80;
+    height: 80;
+}
+
+.green {
+    background-color: rgb(143, 226, 143);
+}
+
+.green2 {
+    background-color: lightgreen;
+}
+
+.playerN {
+    background-color: none;
+    background-image: url(images/characterN.png);
+    background-size: cover;
+}
+
+.playerS {
+    background-color: none;
+    background-image: url(images/characterS.png);
+    background-size: cover;
+}
+
+.playerW {
+    background-color: none;
+    background-image: url(images/characterW.png);
+    background-size: cover;
+}
+
+.playerE {
+    background-color: none;
+    background-image: url(images/characterE.png);
+    background-size: cover;
+}
+
+.inventory {
+    display: flex;
+    height: 100px;
+    width: 800px;
+    border-style: solid;
+}
+
+.inventory .item {
+    height: 100;
+    width: 200;
+    border-style: solid;
+}
+
+.visual {
+    width: 350;
+    height: 200;
+    border-style: solid;
+}
+
+.current {
+    width: 350;
+    height: 200;
+    border-style: solid;
+}
+
+.crafting {
+    width: 350;
+    height: 500;
+    border-style: solid;
+}
+
+.tree {
+    background-image: url(images/tree_icon.png);
+    background-size: cover;
+}
+
+.visual {
+    background-image: url(/images/grass.jpg);
+    background-size: cover;
+}
